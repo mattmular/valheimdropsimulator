@@ -1,0 +1,84 @@
+# Example
+    drops = [
+        DropData("Bronze", 1.0, 5, 10),
+        DropData("Silver", 1.0, 5, 10),
+        DropData("Gold", 0.04, 1, 1)
+    ]
+    drop_min = 1
+    drop_max = 2
+    m_oneOfEach = True
+
+# MorkhallaJotunChest
+    drops = [
+        DropData("AncientCoin", 1.0, 4, 10),
+        DropData("MeadStaminaMedium", 1.0, 1, 1),
+        DropData("MeadHealthMedium", 1.0, 1, 1),
+        DropData("MeadEitrMinor", 1.0, 1, 1),
+        DropData("ArrowCharred", 1.0, 5, 11),
+        DropData("Upgrader6Armor", 0.05, 1, 1),
+        DropData("Upgrader6Weapon", 0.025, 1, 1),
+        DropData("Upgrader7Armor", 0.01, 1, 1), # 0.8%
+        DropData("Upgrader7Weapon", 0.01, 1, 1), # 0.8%
+    ]
+    drop_min = 2
+    drop_max = 4
+    m_oneOfEach = True
+    onlyDisplay = ["Upgrader7Armor", "Upgrader7Weapon"]
+
+# MorkhallaAncientChest
+    drops = [
+        DropData("AncientCoin", 2.0, 11, 55),
+        DropData("AncientGemstoneBlack", 0.2, 1, 1),
+        DropData("AncientGemstoneGreen", 0.5, 1, 1),
+        DropData("AncientGemstoneOrange", 0.4, 1, 1),
+        DropData("AncientGemstonePurple", 0.3, 1, 1),
+        DropData("Copper", 1, 1, 5),
+        DropData("Bronze", 1, 1, 5),
+        DropData("Tin", 1, 1, 5),
+        DropData("Upgrader6Armor", 0.05, 1, 1),
+        DropData("Upgrader6Weapon", 0.025, 1, 1),
+        DropData("Upgrader7Armor", 0.025, 1, 1), # 5.3%
+        DropData("Upgrader7Weapon", 0.0125, 1, 1), # 2.65%
+    ]
+    drop_min = 5
+    drop_max = 7
+    m_oneOfEach = True
+    onlyDisplay = ["Upgrader7Armor", "Upgrader7Weapon"]
+
+# VikingShipwreck
+    drops = [
+        DropData("Coins", 5.0, 50, 100),
+        DropData("SilverNecklace", 0.5, 1, 1),
+        DropData("Feathers", 1, 3, 13),
+        DropData("ArrowCharred", 0.5, 1, 1),
+        DropData("BoltCharred", 0.5, 3, 13),
+        DropData("AncientGemstoneBlack", 0.2, 1, 1),
+        DropData("AncientGemstoneGreen", 0.2, 1, 1),
+        DropData("AncientGemstoneOrange", 0.2, 1, 1),
+        DropData("AncientGemstonePurple", 0.2, 1, 1),
+        DropData("Upgrader6Armor", 0.1, 1, 1),
+        DropData("Upgrader6Weapon", 0.05, 1, 1),
+        DropData("Upgrader7Armor", 0.02, 1, 1), # 1.25%
+        DropData("Upgrader7Weapon", 0.01, 1, 1), # 0.75%
+    ]
+    drop_min = 2
+    drop_max = 4
+    m_oneOfEach = True
+    onlyDisplay = ["Upgrader7Armor", "Upgrader7Weapon"]
+
+# Village
+    drops = [
+        DropData("ArrowCharred", 1.0, 5, 11),
+        DropData("BoltCharred", 1.0, 5, 11),
+        DropData("Coins", 1, 22, 99),
+        DropData("Torch", 1, 1, 1),
+        DropData("Feathers", 1, 5, 13),
+        DropData("Upgrader6Armor", 0.1, 1, 1),
+        DropData("Upgrader6Weapon", 0.05, 1, 1),
+        DropData("Upgrader7Armor", 0.01, 1, 1), # 0.95%
+        DropData("Upgrader7Weapon", 0.01, 1, 1), # 0.95%
+    ]
+    drop_min = 3
+    drop_max = 4
+    m_oneOfEach = True
+    onlyDisplay = ["Upgrader7Armor", "Upgrader7Weapon"]
