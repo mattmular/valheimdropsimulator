@@ -9,11 +9,6 @@ class DropData:
         self.m_stackMin = stack_min
         self.m_stackMax = stack_max
 
-class DropResult:
-    def __init__(self, item, count):
-        self.m_item = item
-        self.m_count = count
-
 class Game:
     m_resourceRate = 1.0
 
